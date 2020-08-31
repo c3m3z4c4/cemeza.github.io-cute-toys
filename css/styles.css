@@ -4,10 +4,15 @@
     padding: 0;
     margin: 0;
 }
+body{
+    max-width: 400px;
+    max-height: 100vh;
+}
 ul{
     list-style: none;
 }
 .main-container{
+
     width: 100%;
     text-align: center;
     display: grid;
@@ -140,7 +145,7 @@ ul{
 .main-container--button-inside{
     max-width :260px;
     max-height: 260px;
-    grid-column: 2/span 3;
+    grid-column: 2/ 3;
     grid-row: 5;
     display: flex;
     flex-direction: row;
